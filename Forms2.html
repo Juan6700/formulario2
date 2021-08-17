@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+		
+<head>
+	<meta charset="utf-8"/>
+	<title>formulario_dos</title>
+    <link rel="stylesheet" type="text/css" href="Forms2.css">
+</head>
+	<body>
+        <h1>Tipos de formularios</h1>
+
+        <form action="#" method="post" >
+            <p>Selecciona la fecha y hora:&nbsp;<input type="datetime-local" name="fechaHora" value="2018-
+        08-01T09:30" required/></p>
+        <br /><hr>
+        
+
+        <p>Elije el mes &nbsp;<input type="month" name="anyomes" value="2018-08" required /></p>
+        <br /><hr>
+
+
+        <label>Elije una semana &nbsp;<input type="week" name="semana" value="2018-W45" /></label>
+<br /><hr>
+
+
+        <p>Elije un color:&nbsp;<input type="color" name="color" value="#00ff00" /></p>
+        <br /><hr>
+
+        <p>Selecciona los archivos &nbsp;<input type="file" name="fichero" accept=".jpg, .jpeg,
+.png" /></p>
+<br /><hr>
+
+
+    <p>Nombre:
+    <input type="text" name="nombre" />
+    </p>
+    <p>
+    <input type="image" src="atras2.gif" />
+    </p>
+    
+    <br /><hr>
+
+    <p>Escribe tu télefono &nbsp;<input type="tel" name="telefono" /></p>
+<br /><hr>
+
+    <p>Escribe una dirección de enlace &nbsp;<input type="url" name="url"
+placeholder="http://www.ejemplo.com" /></p>
+<br /><hr>
+
+<textarea name="area" cols="40" rows="4" minlength="5"
+maxlength="200" >Escribe tu opinión</textarea>
+<br /><hr>
+
+<select name="pais">
+    <option value"es" > España</option>
+    <option value"mx" selected="selected"> México</option>
+    <option value"co"> Colombia</option>
+    </select>
+    <br><br /><hr>
+
+    <select name="pais" size="1">
+        <option value="xx" > Elija un pais ...</option>
+        <optgroup label="América">
+        <option value="ar"> Argentina</option>
+        <option value"mx"> México</option>
+        <option value"co"> Colombia</option>
+        </optgroup>
+        <optgroup label="Europa" disabled>
+        <option value="es"> España</option>
+        <option value="fr"> Francia</option>
+        <option value="it"> Italia</option>
+        </optgroup>
+        </select>
+<br><br /><hr>
+
+Sexo:
+<label for="nom">Hombre<label>
+<input type="radio" name="sexo" value="h" id="nom" />
+<label for="muj">Mujer</label>
+<input type="radio" name="sexo" value="m" id="muj" />
+<br />
+<label for="cond">&nbsp;&nbsp;&nbsp;&nbsp;Acepto
+condiciones:</label>
+<input type="checkbox" value="acepta" name="condiciones3"
+id="cond" /><br />
+<label for="nomb">&nbsp;&nbsp;&nbsp;&nbsp;Nombre: </label>
+<input type="text" name="nombre3" id="nomb"/>
+<br />
+        
+
+            <p><input type="submit" value="Enviar"></p></body>
+        </form>
+</html>
